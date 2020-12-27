@@ -1,0 +1,337 @@
+body{
+  font-family: sans-serif;
+  max-width: 100%;
+  background-color: #000;
+  color: #FFFFFF;
+}
+
+header {
+  max-width: 100%;
+  margin: 30px auto;
+  background-color: black;
+}
+
+header h1 {
+  border-bottom: 1px solid #bababa;
+  background: linear-gradient(#5c5f6d, #453796);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+header img {
+  width: 100%;
+}
+
+header figcaption {
+  font-weight: bold;
+}
+
+a {
+  color: dodgerblue;
+}
+
+a:hover {
+  color: #00bfff;
+}
+
+.gym {
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+  font-size: 18px;
+}
+
+.private {
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+  font-size: 18px;
+}
+
+.voice {
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+  font-size: 18px;
+}
+
+.bmi {
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+  font-size: 18px;
+}
+
+.rates {
+  color: #364e96;/*文字色*/
+  padding: 0.5em 0;/*上下の余白*/
+  border-top: solid 3px #364e96;/*上線*/
+  border-bottom: solid 3px #364e96;/*下線*/
+  font-size: 18px;
+}
+
+.line-bc {
+  padding: 20px 10px;
+  max-width: 450px;
+  margin: 15px auto;
+  text-align: right;
+  font-size: 14px;
+  background: #7da4cd;
+  float: left;
+
+}
+
+/*以下、②左側のコメント*/
+.balloon6 {
+  width: 100%;
+  margin: 10px 0;
+  overflow: hidden;
+}
+
+.balloon6 .faceicon {
+  float: left;
+  margin-right: -50px;
+  width: 40px;
+}
+
+.balloon6 .faceicon img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.balloon6 .chatting {
+  width: 100%;
+  text-align: left;
+}
+.says {
+  display: inline-block;
+  position: relative; 
+  margin: 0 0 0 50px;
+  padding: 10px;
+  max-width: 250px;
+  border-radius: 12px;
+  background: #edf1ee;
+  color: #000;
+}
+
+.says:after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 3px; 
+  left: -19px;
+  border: 8px solid transparent;
+  border-right: 18px solid #edf1ee;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+.says p {
+  margin: 0;
+  padding: 0;
+}
+
+/*以下、③右側の緑コメント*/
+.mycomment {
+  margin: 10px 0;
+}
+.mycomment p {
+  display: inline-block;
+  position: relative; 
+  margin: 0 10px 0 0;
+  padding: 8px;
+  max-width: 250px;
+  border-radius: 12px;
+  background: #30e852;
+  font-size: 15px:
+}
+
+.mycomment p:after {
+  content: "";
+  position: absolute;
+  top: 3px; 
+  right: -19px;
+  border: 8px solid transparent;
+  border-left: 18px solid #30e852;
+  -webkit-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+
+#attention {
+  clear: left;
+}
+
+.form {
+  position: relative;/*相対位置*/
+  line-height: 1.4;/*行高*/
+  display: inline-block;
+}
+
+.form:before, .form:after { 
+  position: relative;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  display: inline-block;
+  font-size: 1.0em;
+  color: #ff6a6a;
+}
+.form:before {
+  content:"\f053";/*アイコン種類*/
+  padding-right: 0.5em
+}
+.form:after {
+  content:"\f054";/*アイコン種類*/
+  padding-left: 0.5em
+}
+
+.btn-flat-simple {
+  position: relative;
+  display: inline-block;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #00BCD4;
+  background: #332d2d;
+  transition: .4s;
+  margin-left: 10px;
+}
+
+.btn-flat-simple:hover {
+  background: #00bcd4;
+  color: white;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  color: #404040;
+  border-left: solid 6px #1fa67a;/*左側の線*/
+  border-bottom: solid 2px #dadada;/*下に灰色線*/
+  background: whitesmoke;
+  margin-bottom: 5px;/*下のバーとの余白*/
+  line-height: 1.5;
+  padding: 0.5em;
+  list-style-type: none!important;/*ポチ消す*/
+  font-weight: bold;
+}
+
+#course {
+  font-size: 18px;
+}
+
+.box {
+  margin: 2em 0;
+  background: #dcefff;
+}
+.box .box-title {
+  font-size: 1.2em;
+  background: #1a5e92;
+  padding: 4px;
+  text-align: center;
+  color: #000;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.box p {
+  padding: 15px 20px;
+  margin: 0;
+  color: #000;
+}
+
+#touch {
+  font-size: 18px;
+}
+
+
+.btn,
+a.btn,
+button.btn {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 1.5;
+  position: relative;
+  display: inline-block;
+  padding: 1rem 2rem;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+  color: #212529;
+  border-radius: 0.5rem;
+}
+
+.btn-border-gradient-wrap {
+  display: inline-block;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+
+.btn-border-gradient-wrap--silver {
+  background-image: -webkit-linear-gradient(
+    315deg,
+    #333 0%,
+    #868888 20%,
+    #d8dcdc 34%,
+    #999a9c 35%,
+    #cccdce 43%,
+    white 53%,
+    #d1d6d7 68%,
+    #9b9d9f 84%,
+    #666 100%
+  );
+  background-image: linear-gradient(
+    135deg,
+    #333 0%,
+    #868888 20%,
+    #d8dcdc 34%,
+    #999a9c 35%,
+    #cccdce 43%,
+    white 53%,
+    #d1d6d7 68%,
+    #9b9d9f 84%,
+    #666 100%
+  );
+}
+
+a.btn-border-gradient {
+  font-size: 16px;
+  background: #000;
+}
+
+.btn-text-gradient--silver {
+  background: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(#fff),
+    to(#999)
+  );
+  background: -webkit-linear-gradient(bottom, #fff, #999);
+  background: linear-gradient(to top, #fff, #999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn-border-gradient-wrap--silver:hover a.btn {
+  text-shadow: 0 0 15px rgba(209, 214, 215, 0.5),
+    0 0 15px rgba(209, 214, 215, 0.5), 0 0 15px rgba(209, 214, 215, 0.5),
+    0 0 15px rgba(209, 214, 215, 0.5);
+}
+
+footer {
+  margin-top: 25px;
+}
